@@ -47,9 +47,9 @@ public function check($id)
 {
     $user =USER::findorfail($id);
     if (Hash::check('123456789', $user->password)) {
-        return "true password == hashed" ;
+        return "Choosen Password == Hashed" ;
     } else {
-        return "Password != Hashed";
+        return "Chossen Password != Hashed";
     }
 }
 }
