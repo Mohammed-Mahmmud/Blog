@@ -12,6 +12,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 </head>
 <body class="w3-light-grey">
+  <a href={{route('home')}} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Home</a>
+  <a href={{route('about')}} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="{{route('posts.index')}}" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> PROJECT</a>
+     <a href="{{route('dashboard')}}" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-user"></i>
+    Sign Up</a>
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 

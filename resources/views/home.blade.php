@@ -61,12 +61,12 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href={{route('home')}} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Home</a>
     <a href={{route('about')}} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="{{route('welcome')}}" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> PROJECT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+    <a href="{{ route('posts.index') }}" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Project</a>
+    <a href="{{route('register')}}" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-user"></i>
+    Sign Up</a>
   </div>
 </div>
 

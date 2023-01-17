@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\Login\LoginController;
+use App\Http\Controllers\Login\SignUpController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,21 +16,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Home
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
-Route::view('/about', 'AboutMe')->name('about');
+//Navbar
+Route::view('/about', 'AboutMe')->middleware('auth')->name('about');
 Route::view('/welcome', 'welcome')->name('welcome');
 
+
+//Auth
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
 
-
-
+//Posts 
 Route::prefix('/posts')->middleware('auth')->group(function () {
     Route::get('/', [PostController::class,'indexAction'])->name('posts.index');
     Route::get('/create', [PostController::class,'createAction'])->name('posts.create');
@@ -38,3 +43,11 @@ Route::prefix('/posts')->middleware('auth')->group(function () {
     Route::get('/{post}', [PostController::class,'showAction'])->name('posts.show');
     Route::delete('/{post}', [PostController::class,'destroyAction'])->name('posts.destroy');
 });
+
+//Login & signup
+// Route::get('/signup',[SignUpController::class,'create'])->name('user.create');
+// Route::post('/signupHere',[SignUpController::class,'store'])->name('user.store');
+
+// Route::get("/log in",[LoginController::class,'create'])->name('login');
+// Route::post("/loginHere",[LoginController::class,'store'])->name('user.login');
+

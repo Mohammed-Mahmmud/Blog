@@ -20,7 +20,21 @@
             }
         </style>
     </head>
-    <body class="antialiased">
+    <body >
+    <!-- Navbar (sit on top) -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-md">
+    <a class="navbar-brand" href="{{route('home')}}">Home</a>
+    <a class="navbar-brand" href="{{route('about')}}">About</a>
+    <a class="navbar-brand" href="{{route('posts.index')}}">Project</a>
+  </div>
+</nav>
+
+
+
+    
+
+
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -126,8 +140,8 @@
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
+                   </div>
                 </div>
-            </div>
         </div>
     </body>
 </html>

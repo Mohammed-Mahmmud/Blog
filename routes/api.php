@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-//Api_Tutorial 
+//Api_Tutorial
 Route::controller(PostController::class)->prefix('/post')->group(function () {
     Route::get('/{id}', 'show');
     Route::get('/', 'index');
