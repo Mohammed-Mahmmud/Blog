@@ -133,7 +133,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h5 class="w3-opacity">
             <b>Web Developer <span class="w3-tag w3-teal w3-round">Internship</span></b></h5>
           <h6 class="w3-text-teal">
-            <i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2019 - October 2019</h6>
+            <i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 - October 2022</h6>
           <p>TradePoint </p></div><br>
         
       </div>

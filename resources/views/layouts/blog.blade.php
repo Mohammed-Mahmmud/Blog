@@ -54,7 +54,6 @@
 <div class="navbar">
   <a class="active" href="{{route('home')}} "><i class="fa fa-fw fa-home"></i> Home</a>
   <a href="{{route('about')}}"><i class="fa fa-fw fa-user"></i> About</a>
-  <a href="{{route('welcome')}}"><i class="fa fa-fw fa-envelope"></i> Contact</a>
   <a href="{{route('dashboard')}}"><i class="fa fa-fw fa-user"></i> Login</a>
 </div>
 
