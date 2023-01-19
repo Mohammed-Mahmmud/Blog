@@ -88,9 +88,6 @@ and benefit the organization I will be working for..</p>
     <div>
 
   <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="PhotoRoom.png" class="w3-image w3-round" style="width:100%">
-    </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Cairo, Egypt<br>

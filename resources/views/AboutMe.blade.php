@@ -27,12 +27,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <!-- Left Column -->
     <div class="w3-third">
     
-      <div class="w3-white w3-text-grey w3-card-4">
+      <div class="w3-white w3-text-black w3-card-4">
         <div class="w3-display-container">
-          <img src="PhotoRoom.png" style="width:100%;" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Mohamed Mahmoud</h2>
-          </div>
+           <h2>Mohamed Mahmoud</h2>
+          
         </div>
         <div class="w3-container">
                     <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Engineer</p>
@@ -131,18 +129,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16">
           <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-          <!-- Experience  -->
-<!--        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Back End Developer</b></h5>
-          <h6 class="w3-text-teal">
-            <i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2022 - October 2022</h6>
-          <p> RGB </p>
-          <hr>
-        </div>
- -->
-
-
-
         <div class="w3-container">
           <h5 class="w3-opacity">
             <b>Web Developer <span class="w3-tag w3-teal w3-round">Internship</span></b></h5>
