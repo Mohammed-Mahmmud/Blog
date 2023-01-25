@@ -62,7 +62,6 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href={{route('home')}} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Home</a>
-    <a href={{route('about')}} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="{{ route('posts.index') }}" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Project</a>
     <a href="{{route('register')}}" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-user"></i>

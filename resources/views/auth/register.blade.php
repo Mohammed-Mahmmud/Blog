@@ -41,7 +41,7 @@
 
 <div class="navbar">
   <a class="active" href="{{route('home')}} "><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="{{route('about')}}"><i class="fa fa-fw fa-user"></i> About</a>
+  {{-- <a href="{{route('about')}}"><i class="fa fa-fw fa-user"></i> About</a> --}}
   <a href="{{route('posts.index')}}"><i class="fa fa-fw fa-envelope"></i> Project</a>
   <a href="{{route('login')}}"><i class="fa fa-fw fa-user"></i> Login</a>
 </div> 
@@ -102,6 +102,7 @@
                     {{ __('Register') }}
                 </x-button>
             </div>
+             <div style="color:red;">** Hint : try random account  </div>
         </form>
     </x-auth-card>
 </x-guest-layout>

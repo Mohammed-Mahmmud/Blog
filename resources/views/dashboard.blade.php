@@ -41,7 +41,6 @@
 
 <div class="navbar">
   <a class="active" href="{{route('home')}} "><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="{{route('about')}}"><i class="fa fa-fw fa-user"></i> About</a>
   <a href="{{route('posts.index')}}"><i class="fa fa-fw fa-envelope"></i> Project</a>
   <a href="{{route('dashboard')}}"><i class="fa fa-fw fa-user"></i> Login</a>
 </div> 
@@ -63,10 +62,6 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     You're logged in!
                 </div>
-               <!--  {{--Post link --}}
-                <div class="card m-4 ">
-                <a href="{{ route('posts.index') }}" class="btn btn-primary" >Posts</a>
-                </div> -->
             </div>
         </div>
     </div>

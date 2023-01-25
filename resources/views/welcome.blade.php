@@ -25,7 +25,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-md">
     <a class="navbar-brand" href="{{route('home')}}">Home</a>
-    <a class="navbar-brand" href="{{route('about')}}">About</a>
     <a class="navbar-brand" href="{{route('posts.index')}}">Project</a>
   </div>
 </nav>

@@ -21,10 +21,6 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-//Navbar
-Route::view('/about', 'AboutMe')->middleware('auth')->name('about');
-Route::view('/welcome', 'welcome')->name('welcome');
-
 
 //Auth
 Route::get('/dashboard', function () {
@@ -43,11 +39,3 @@ Route::prefix('/posts')->middleware('auth')->group(function () {
     Route::get('/{post}', [PostController::class,'showAction'])->name('posts.show');
     Route::delete('/{post}', [PostController::class,'destroyAction'])->name('posts.destroy');
 });
-
-//Login & signup
-// Route::get('/signup',[SignUpController::class,'create'])->name('user.create');
-// Route::post('/signupHere',[SignUpController::class,'store'])->name('user.store');
-
-// Route::get("/log in",[LoginController::class,'create'])->name('login');
-// Route::post("/loginHere",[LoginController::class,'store'])->name('user.login');
-
