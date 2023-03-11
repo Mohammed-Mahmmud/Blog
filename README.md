@@ -1,3 +1,4 @@
-Simple API CRUD (Create Read Update Delete) Operations Application with Registration using Laravel Beeze and Laravel/ui
-you should to enter random email form (ex:name@mail.com) non specific email in registration
-you have to enter that email and password you choosed in login form 
+The application consist of a basic CRUD (Create, Read, Update, Delete) functionality for managing a list of users and set of posts. The application have two parts: a web interface and an API.
+            Users will be able to view, add, edit, and delete posts and users from the list. The interface  built using Laravel's Blade templating engine and include forms for submitting data.
+            The API use Laravel's built-in API routing and response handling to provide a RESTful interface for managing the post and user list. The API include endpoints for creating, reading, updating, and deleting users and posts.
+            Authentication will be handled using Laravel Breeze.
